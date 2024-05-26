@@ -2,10 +2,10 @@
 
 • shakespeare_train.txt 
 셰익스피어의 대사들로 구성된 텍스트 데이터셋 
-
+<br>
 • dataset.py
 텍스트 데이터셋을 불러와 분석 및 처리
-
+<br>
 • main.py
 1) 데이터셋 로드: dataset.py 파일의 Shakespeare 클래스를 사용하여 shakespeare_train.txt 파일을 불러옴
 2) 모델 선택: RNN과 LSTM 모델을 선택
@@ -26,7 +26,7 @@ Epoch 값이 1일 때, Train Loss 값은 2.301, Validation Loss 값은 2.285
 
 Epoch 값이 30일 때, Train Loss 값은 1.045, Validation Loss 값은 1.123
 
-
+<br>
 • model.py
 
 RNN과 LSTM의 신경망이 정의되며 텍스트 데이터셋을 학습시키기 위해 사용
@@ -42,7 +42,7 @@ LSTM :
 - 임베딩 레이어, LSTM 레이어, 완전 연결(FC) 레이어로 구성
 - forward 메서드는 입력 데이터를 임베딩하고 LSTM을 통해 출력을 생성
 - init_hidden 메서드는 초기 은닉 상태를 생성
-
+<br>
 • generate.py
 학습된 모델을 사용하여 새로운 텍스트를 생성
 1) 라이브러리 임포트: argparse, os, torch, numpy, device와 datasets, RNN, LSTM 등 필요한 라이브러리를 임포트
