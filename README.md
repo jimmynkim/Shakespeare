@@ -1,6 +1,7 @@
 # Shakespeare
 
 • shakespeare_train.txt 
+
 셰익스피어의 대사들로 구성된 텍스트 데이터셋 
 <br>
 • dataset.py
