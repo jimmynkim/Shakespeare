@@ -28,6 +28,7 @@ Epoch 값이 30일 때, Train Loss 값은 1.045, Validation Loss 값은 1.123
 
 
 • model.py
+
 RNN과 LSTM의 신경망이 정의되며 텍스트 데이터셋을 학습시키기 위해 사용
 
 RNN :
