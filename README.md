@@ -14,12 +14,16 @@
 
 (RNN)
 ![RNN](https://github.com/jimmynkim/Shakespeare/assets/75557016/320d97b9-c405-4876-9821-2cb2d653362f)
+
 Epoch 값이 1일 때, Train Loss 값은 2.546, Validation Loss 값은 2.342
+
 Epoch 값이 30일 때, Train Loss 값은 1.414, Validation Loss 값은 1.426
 
 (LSTM)
 ![LSTM](https://github.com/jimmynkim/Shakespeare/assets/75557016/09cf75bc-bc29-4108-92af-451c17745bf7)
+
 Epoch 값이 1일 때, Train Loss 값은 2.301, Validation Loss 값은 2.285
+
 Epoch 값이 30일 때, Train Loss 값은 1.045, Validation Loss 값은 1.123
 
 • model.py
@@ -44,5 +48,7 @@ LSTM :
 3) 스크립트 실행: argparse를 사용하여 명령줄 인수를 파싱하고 주어진 인수에 따라 모델을 로드하고 텍스트를 생성
 
 temperature는 모델에서 생성된 텍스트의 다양성을 제어하는 역할을 함
+
 temperature가 낮으면, 텍스트가 일관되고 구조화되게 작성되어 문법 규칙을 잘 따르며, 이해하기 쉬운 문장 생성 
+
 temperature가 높으면, 텍스트는 무작위성이 높아져 이해하기 어려운 단어와 문장이지만 다양하고 창의적인 문장 생성
